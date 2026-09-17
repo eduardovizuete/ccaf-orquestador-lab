@@ -1,24 +1,30 @@
 # CCAF Orquestador Lab
 
-Repositorio personal de práctica y bitácora para el **Programa Orquestador CCAF** (Sofka) —
-preparación para la certificación **Claude Certified Architect – Foundations (CCAR-F)**.
+Repositorio personal de práctica y documentación — preparación autónoma para la
+certificación **Claude Certified Architect – Foundations (CCAR-F)**.
+
+No es un entregable de un programa formal: es material de estudio propio, a partir
+de los recursos públicos del programa Orquestador CCAF (Sofka) — guía del aprendiz,
+notebook de katas, exam guide oficial — trabajados 100% por cuenta propia.
 
 ## Qué hay acá
 
-- **`src/`** — código de práctica para las katas y ejercicios que requieren un repo real
-  (Claude Code, hooks, reglas por path, tool use, MCP).
-- **`tests/`** — pruebas asociadas al código de `src/`, usadas en katas de CI/CD y TDD.
-- **`docs/bitacora/`** — una entrada por semana del programa: qué se hizo, qué costó, dudas.
-- **`docs/preguntas-guia/`** — respuestas a la pregunta guía de cada sesión antes de entregarlas.
-- **`docs/entregables/`** — checklists y capturas de cada semana.
+- **`src/`** — código de práctica para las katas (Claude Code, hooks, reglas por path, tool use, MCP).
+- **`tests/`** — pruebas asociadas al código de `src/`.
+- **`docs/plan-maestro.md`** — el plan completo: 4 bloques, 8 semanas, mapa de recursos. Fuente de verdad del calendario.
+- **`docs/seguimiento.md`** — checklist vivo de avance, semana por semana. Se edita in situ.
+- **`docs/bitacora/`** — registro histórico por semana (qué se hizo, dudas, comandos). Append-only, no se reescribe.
+- **`docs/reflexiones/`** — respuestas propias a preguntas de reflexión por bloque (opcional, sin entregar a nadie).
+- **`docs/evidencias/`** — capturas de módulos y quizzes completados, para registro personal.
 - **`docs/semaforo-task-statements.md`** — semáforo de los 30 task statements del blueprint del examen.
-- **`.claude/`** — configuración de Claude Code (memoria, reglas por path) — se completa en la Sesión 3.
+- **`.claude/`** — configuración de Claude Code (memoria, reglas por path).
 
-## Programa
+## Calendario (resumen — el detalle vive en `docs/plan-maestro.md`)
 
-- Semana 0: 7-13 sept — habilitación
-- Semana 1: 14-20 sept — Sesiones 1-2 (loop agéntico, structured output)
-- Semana 2: 21-27 sept — Sesiones 3-4 (Claude Code, hooks, MCP)
-- Semana 3: 28 sept-4 oct — Sesiones 5-6 (multi-agente, contexto)
-- Semana 4: 5-11 oct — examen CCAR-F
-- Semanas 5-6: 12-25 oct — ASDD y evaluación organizacional
+8 semanas, 15 sept – 9 nov 2026. Examen objetivo: 6-7 de noviembre.
+
+- Semanas 1: habilitación (entorno, cursos base)
+- Semanas 2-3: fundamentos — loop agéntico, tool use, structured output
+- Semanas 4-5: Claude Code y MCP
+- Semanas 6-7: multi-agente y gestión de contexto
+- Semana 8: simulacros y examen
