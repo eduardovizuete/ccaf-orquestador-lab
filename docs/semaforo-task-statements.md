@@ -1,16 +1,16 @@
 # Semáforo de Task Statements (CCAR-F)
 
 Estado por task statement del blueprint oficial. Actualizar semana a semana.
-Leyenda: 🔴 no visto · 🟡 visto, inseguro · 🟢 sólido
+Leyenda: 🔴 no visto · 🟡 leído, sin práctica · 🟢 leído + practicado (kata) + quiz o pregunta acertada
 
 ## Domain 1 — Agentic Architecture & Orchestration (27%)
-- 🔴 1.1 Agentic loops
-- 🔴 1.2 Coordinador-subagente
-- 🔴 1.3 Task tool, contexto, paralelismo
-- 🔴 1.4 Enforcement y handoff
-- 🔴 1.5 Hooks del Agent SDK
-- 🔴 1.6 Descomposición de tareas
-- 🔴 1.7 Sesiones: resume y fork
+- 🟡 1.1 Agentic loops
+- 🟡 1.2 Coordinador-subagente
+- 🟡 1.3 Task tool, contexto, paralelismo
+- 🟡 1.4 Enforcement y handoff
+- 🟡 1.5 Hooks del Agent SDK
+- 🟡 1.6 Descomposición de tareas
+- 🟡 1.7 Sesiones: resume y fork
 
 ## Domain 2 — Tool Design & MCP Integration (18%)
 - 🔴 2.1 Diseño de interfaces de tools
